@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+    overflow: hidden;
+}
+#header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    background-color: white;
+}
+button {
+    font-size: 20px;
+    height: 35px;
+    width: 100px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    text-decoration: none;
+    
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+footer p {
+    padding: 25px;
+    font-size: 20px;
+}
+#grid {
+
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cella {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2.5px solid black ;
+    border-radius: 10px;
+
+}
+
+
+
+.cellacolorata{
+    background-color: blue;
+}
+
+
+
+.bombacalpestata{
+    background-color: red;
+} 
